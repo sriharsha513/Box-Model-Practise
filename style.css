@@ -1,0 +1,93 @@
+h1, h2 {
+  font-family: Lato;
+}
+
+.test {
+  box-sizing: border-box;
+  width: 300px;
+  height: 100px;
+  background-color: red;
+  inline-size: 400px;
+  block-size: 200px;
+  padding: 40px;
+  border: 10px solid yellow;
+  margin: 5px;
+}
+
+.container {
+  width: 600px;
+  background-color: red;
+}
+.side1 {
+  box-sizing: content-box;
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  padding: 20px;
+  border: 5px solid green;
+  margin: 10px 10px;
+}
+.side2 {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+  padding: 20px;
+  background-color: yellow;
+  border: 5px solid green;
+  margin: 20px 10px;
+}
+
+.container-ex3 {
+  width: 600px;
+  background-color: red;
+  margin: 10px;
+  padding: 10px;
+}
+.side1-ex3 {
+  box-sizing: content-box;
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  padding: 20px;
+  border: 5px solid green;
+  margin: 30px 10px 10px 10px;
+}
+.side2-ex3 {
+  box-sizing: border-box;
+  width: 250px;
+  height: 150px;
+  padding: 20px;
+  background-color: yellow;
+  border: 5px solid green;
+  margin: 20px 10px;
+}
+
+.outer {
+  width: 300px;
+  height: 150px;
+  background-color: red;
+  padding: 40px;
+  margin: 10px;
+  border: 5px solid green;
+}
+.inner {
+  width: 150px;
+  height: 75px;
+  background-color: yellow;
+  padding: 20px;
+  margin: 5px;
+  border: 3px solid green;
+}
+.container-ex5 {
+  width: 300px;
+  height: 150px;
+  background-color: red;
+}
+.center {
+  margin: auto;
+  width: 150px;
+  height: 75px;
+  background-color: yellow;
+}
